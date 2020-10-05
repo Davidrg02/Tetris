@@ -120,7 +120,6 @@ class Malla {
     } else if (y < 0) {
       return true;
     }
-    //println("WARNING: trying to access out of bond cell, x: "+x+" y: "+y);
     return false;
   }
 
